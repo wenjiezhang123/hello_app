@@ -63,7 +63,7 @@
 # Global options
 # --------------
 set :ssh_options, {
-  keys: %w(/path-to-your-ec2-key.pem),
+  keys: %w(/Users/wzhang/Desktop/wzhang.pem),
   forward_agent: false,
-  auth_methods: %w(publickey password)
+  auth_methods: %w(CS1992cs)
 }
